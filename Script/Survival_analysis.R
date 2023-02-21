@@ -41,7 +41,8 @@ saveRDS(tib_survi, "./Output/tib_survie.rds")
 ##############################
 # Dose response analysis ----- 
 
-# here are presented results for model selected in script DRCmodel
+# Here are presented results for model selected in script DRCmodel
+# Plot follows model fit 
 
 ## Calcul of mortality proportion in control group per lot 
 
