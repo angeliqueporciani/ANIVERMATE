@@ -5,16 +5,11 @@ library(forcats)
 library(kableExtra)
 
 # load data ----
-source("./src/fun_ana_surv.R")
-All_results <- readRDS("./Output/all_results.rds")
-
-
 PK_dataW <- readRDS("./Data/PKdata.rds")
 poids <- readRDS("./Data/poidsbovins.rds")
 IVMdungW <- readRDS("./Data/PKdung.rds")
 
 substi<-function(x) {gsub("[,]",".",x) } 
-
 
 # PKNCA Analysis plasma IVM ----
 
