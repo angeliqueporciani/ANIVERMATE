@@ -4,10 +4,13 @@ library(purrr)
 library(coxme)
 library(survminer)
 library(survival)
+library(forcats)
+library(drc)
 # load data ---- 
 
 surv_weight <- readRDS("./Data/surv_weigt.rds")
 surv <-readRDS("./Data/surv.rds")
+surv_w_pk <- readRDS("./Data/surv_w_pk.rds")
 
 # Survival effectif table --- 
 eff_table <- surv_weight%>%
